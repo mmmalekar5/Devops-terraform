@@ -15,7 +15,7 @@ variable "tag_name" {
 
 variable "ami_id" {
   description = "AMI id of Ec2 instance"
-  default     = "ami-0bd3f43f107376d6b"
+  default     = "ami-0e742cca61fb65051"
 }
 
 variable "instance_type" {
