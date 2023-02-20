@@ -1,8 +1,8 @@
 variable "access_key" {
-  default = "AKIA5UR4AVHHCSOGAAW2"
+  default = "AKIA5UR4AVHHONPPLM3B"
   }
 variable "secret_key" {
-  default ="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"
+  default ="AxbgjhkIfZw7K92gX4QpiRYwIEcnPN+f29HN1TbR"
   }
 variable "region" {
   default = "ap-south-1"
