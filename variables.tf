@@ -10,7 +10,7 @@ variable "region" {
 
 variable "tag_name" {
   description = "Name of Ec2 instance"
-  default     = "my-ec2-instance"
+  default     = "my-instance"
 }
 
 variable "ami_id" {
