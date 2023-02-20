@@ -1,8 +1,8 @@
 variable "access_key" {
-  default = "AKIA5UR4AVHHEAQNMVWS"
+  default = "AKIA5UR4AVHHCSOGAAW2"
   }
 variable "secret_key" {
-  default ="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"
+  default ="2YX2p/cFxKlQ6xwvbOGu0ql8w9OBjzIyyRa0MKZR"
   }
 variable "region" {
   default = "ap-south-1"
@@ -10,12 +10,12 @@ variable "region" {
 
 variable "tag_name" {
   description = "Name of Ec2 instance"
-  default     = "ec2"
+  default     = "my-ec2"
 }
 
 variable "ami_id" {
   description = "AMI id of Ec2 instance"
-  default     = "ami-0bd3f43f107376d6b"
+  default     = "ami-0e742cca61fb65051"
 }
 
 variable "instance_type" {
