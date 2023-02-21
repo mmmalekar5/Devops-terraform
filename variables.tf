@@ -5,7 +5,7 @@ variable "secret_key" {
   default ="aOwQn+RIJsV5DNk8Bj+m0T9WCoUpp55NRtTQIlqm"
   }
 variable "region" {
-  default = "ap-south-1"
+  default = "us-east-1"
   }
 
 variable "tag_name" {
