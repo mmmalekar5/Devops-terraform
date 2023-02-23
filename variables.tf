@@ -4,6 +4,11 @@ variable "access_key" {
 variable "secret_key" {
   default ="aOwQn+RIJsV5DNk8Bj+m0T9WCoUpp55NRtTQIlqm"
   }
+
+variable "role" {
+  default ="arn:aws:iam::937502484942:role/jenkins"
+  }
+
 variable "region" {
   default = "us-east-1"
   }
