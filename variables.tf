@@ -7,7 +7,7 @@ variable "secret_key" {
   }
 
 variable "region" {
-  default = "us-east-1"
+  default = "ap-south-1"
   }
 
 variable "tag_name" {
@@ -17,7 +17,7 @@ variable "tag_name" {
 
 variable "ami_id" {
   description = "AMI id of Ec2 instance"
-  default     = "ami-0dfcb1ef8550277af"
+  default     = "ami-0e742cca61fb65051"
 }
 
 variable "instance_type" {
