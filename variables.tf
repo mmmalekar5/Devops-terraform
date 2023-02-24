@@ -1,12 +1,9 @@
 variable "access_key" {
-  default = "AKIA5UR4AVHHAYP2YP76"
-  }
-variable "secret_key" {
-  default ="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"
+  default = "AKIA5UR4AVHHAUHBHPUG"
   }
 
-variable "role" {
-  default ="arn:aws:iam::937502484942:role/jenkins"
+variable "secret_key" {
+  default ="NZUotik8xM/Ebw1lBkAX0e2tcjRBNMs9fBRjEGjK"
   }
 
 variable "region" {
