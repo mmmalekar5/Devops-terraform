@@ -1,9 +1,16 @@
-variable "access_key" {
+variable "dev_access_key" {
   default = "AKIA5UR4AVHHAUHBHPUG"
   }
 
-variable "secret_key" {
+variable "dev_secret_key" {
   default ="NZUotik8xM/Ebw1lBkAX0e2tcjRBNMs9fBRjEGjK"
+  }
+
+variable "test_access_key" {
+  default = "AKIA5UR4AVHHAUHBHPUG"
+  }
+variable "test_secret_key" {
+  default = "AKIA5UR4AVHHAUHBHPUG"
   }
 
 variable "region" {
