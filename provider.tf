@@ -1,8 +1,7 @@
 provider "aws" {
   region                   = var.region
-  shared_config_files      = ["home/ec2-user/.aws/config"]
-  shared_credentials_files = ["home/ec2-user/.aws/credentials"]
-  profile                  = "test"
+  access_key               = "AKIAYURHTUG4YVS4ASNU"
+  secret_key               = "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"
 } 
  
   
