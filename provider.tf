@@ -17,11 +17,7 @@ terraform {
 provider "aws" {
   shared_config_files      = ["/home/ec2-user/.aws/config"]     
   shared_credentials_files  = ["/home/ec2-user/.aws/credentials"] 
-  profile = "awscross" # local aws credential/config profile name
-  assume_role {
-           role_arn = "arn:aws:iam::593862304185:role/access-to-jenkins"
-           session_name = "terraform"
-        }
+  profile = "mayur" # local aws credential/config profile name
 }
 
 
