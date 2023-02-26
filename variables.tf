@@ -1,3 +1,9 @@
+variable "region" {
+  default     = "region"
+}
+variable "profile" {
+  default     = "profile"
+}
 
 variable "tag_name" {
   description = "Name of Ec2 instance"
