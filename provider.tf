@@ -12,6 +12,6 @@ provider "aws" {
   region                   = "ap-south-1"
  #profile                  = "test"
   access_key               = "AKIAYURHTUG4RIOGNHSS"
-  secretkey               = "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"
+  secret_key               = "AT9g+DtGXhvqelt28+AkRa4cHmPtokpYHKBYSg8b"
 }
 
