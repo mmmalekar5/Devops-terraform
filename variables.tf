@@ -1,6 +1,3 @@
-variable "region" {
-  default = "ap-south-1"
-  }
 
 variable "tag_name" {
   description = "Name of Ec2 instance"
