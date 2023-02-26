@@ -19,6 +19,6 @@ provider “aws” {
 profile = “awscross” # local aws credential/config profile name
 assume_role {
 role_arn = “arn:aws:iam::593862304185:role/access-to-jenkins”
-session_name = “terraform”
+session_name = "terraform"
 }
 }
