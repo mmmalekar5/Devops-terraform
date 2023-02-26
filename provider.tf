@@ -14,11 +14,12 @@ terraform {
   #access_key               = "AKIA5UR4AVHHOMWZQ2PO"
   #secret_key               = "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"
 
+provider "aws" {
+        profile = "awscross" # local aws credential/config profile name
+        assume_role {
+           role_arn = "arn:aws:iam::593862304185:role/access-to-jenkins"
+           session_name = "terraform"
+        }
+}
 
-provider “aws” {
-profile = “awscross” # local aws credential/config profile name
-assume_role {
-role_arn = “arn:aws:iam::593862304185:role/access-to-jenkins”
-session_name = "terraform"
-}
-}
+
