@@ -1,8 +1,8 @@
 variable "region" {
-  default     = "region"
+  default     = "us-east-1"
 }
 variable "profile" {
-  default     = "profile"
+  default     = "mayur"
 }
 
 variable "tag_name" {
